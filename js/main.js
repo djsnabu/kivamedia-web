@@ -491,7 +491,7 @@ $(function () {
     fancybox
 
     ***************************/
-    $('[data-fancybox="gallery"]').fancybox({
+    $('[data-fancybox]').fancybox({
         buttons: [
             "slideShow",
             "zoom",
@@ -941,7 +941,7 @@ $(function () {
         fancybox
 
         ***************************/
-        $('[data-fancybox="gallery"]').fancybox({
+        $('[data-fancybox]').fancybox({
             buttons: [
             "slideShow",
             "zoom",
