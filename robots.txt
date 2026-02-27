@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kivamedia.fi/sitemap.xml

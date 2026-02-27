@@ -1,0 +1,57 @@
+# Kivamedia
+
+> Kivamedia on suomalainen digitaalitoimisto, joka rakentaa pk-yrityksille verkkosivut, hakukonenäkyvyyden ja sosiaalisen median sisällöt.
+
+## Yhteystiedot
+
+- Verkkosivut: https://kivamedia.fi
+- Sähköposti: nabil@kivamedia.fi
+- Puhelin: +358 40 195 0045
+- Sijainti: Helsinki, Suomi (palvelee koko Suomea etänä)
+
+## Palvelut ja hinnat
+
+### Verkkosivut
+
+- **One-pager (500 € + ALV)**: Responsiivinen yksisivuinen verkkosivusto, julkaisu 5 arkipäivässä. Sisältää perus-SEO:n, AI-SEO-struktuurin, yhteydenottolomakkeen ja Google Analyticsin. Tyytyväisyystakuu.
+- **Pro-sivut (1 000 € + ALV)**: 3–4 sivua, avainsanatutkimus, tekninen SEO, blogi-/referenssisivut, Google Analytics & Tag Manager, Google/Meta Ads -startti. 30 päivän julkaisun jälkeinen tuki.
+- **Verkkokauppa (tarjouspyyntö)**: WooCommerce tai Shopify, maksutavat ja varastonhallinta, SEO & CRO-auditointi, integraatiot, kuukausittainen raportointi.
+
+### Muut palvelut
+
+- Hakukoneoptimointi (SEO) ja AI-SEO (näkyvyys ChatGPT:ssä, Geminissä, Perplexityssä)
+- Google Ads, Meta (Facebook/Instagram) ja TikTok -mainonta
+- Sosiaalisen median sisällöntuotanto ja strategia
+- Brändisuunnittelu ja visuaalinen ilme
+- Valokuvaus ja lyhytvideot
+
+## Lupaukset
+
+- **24h layout**: Desktop- ja mobiilimockup 24 tunnin sisällä arkena.
+- **Tyytyväisyystakuu**: Iteroidaan kunnes asiakas on tyytyväinen, ei lisäveloitusta.
+- **Joustavat maksuajat**: Uudet yritykset voivat maksaa erissä.
+
+## Tiimi
+
+- **Nabil Samari** — Perustaja. Verkkosivut, SEO ja tekninen toteutus. nabil@kivamedia.fi
+- **Annika Ränkimies** — Sosiaalinen media, brändi ja lyhytvideot. annika@kivamedia.fi
+
+## Usein kysytyt kysymykset
+
+### Kuinka nopeasti saan verkkosivut?
+One-pager julkaistaan 5 arkipäivässä. Saat desktop- ja mobiililayoutin 24 tunnin sisällä tilauksesta.
+
+### Paljonko verkkosivut maksavat?
+Yksisivuinen verkkosivusto alkaen 500 € + ALV. Pro-sivut (3–4 sivua) alkaen 1 000 € + ALV. Verkkokauppa tarjouspyynnöllä.
+
+### Mitä tyytyväisyystakuu tarkoittaa?
+Iteroidaan kunnes olet tyytyväinen lopputulokseen. Ei lisäveloitusta muutoskierroksista.
+
+### Voiko maksaa erissä?
+Kyllä. Sovimme sinulle sopivan maksusuunnitelman, erityisesti uusille yrityksille.
+
+### Mitä on AI-SEO?
+AI-SEO varmistaa, että yrityksesi löytyy perinteisten hakukoneiden lisäksi myös tekoälypalveluista kuten ChatGPT, Google Gemini ja Perplexity.
+
+### Palveleeko Kivamedia vain Helsingissä?
+Ei. Palvelemme koko Suomea etänä. Tapaamiset hoituvat Google Meetillä.

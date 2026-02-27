@@ -37,6 +37,121 @@
 
     <link rel="canonical" href="https://kivamedia.fi/">
 
+    <!-- Structured Data: LocalBusiness -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Kivamedia",
+      "url": "https://kivamedia.fi",
+      "logo": "https://kivamedia.fi/img/photo/1.jpg",
+      "description": "Kivamedia rakentaa pk-yrityksille nopeat verkkosivut, jotka muuttavat kävijät yhteydenotoiksi.",
+      "telephone": "+358401950045",
+      "email": "nabil@kivamedia.fi",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Helsinki",
+        "addressCountry": "FI"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "Finland"
+      },
+      "priceRange": "500 €–1 000 €",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+        "opens": "09:00",
+        "closes": "18:00"
+      },
+      "founder": {
+        "@type": "Person",
+        "name": "Nabil Samari"
+      }
+    }
+    </script>
+
+    <!-- Structured Data: Services -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Kivamedia"
+      },
+      "serviceType": "Web Design",
+      "name": "Verkkosivut pk-yrityksille",
+      "description": "Responsiiviset verkkosivut alkaen 500 €. Julkaisu 5 arkipäivässä, 24h layout, tyytyväisyystakuu.",
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "One-pager",
+          "price": "500",
+          "priceCurrency": "EUR",
+          "description": "Yksisivuinen verkkosivusto, perus-SEO, yhteydenottolomake, Google Analytics. Julkaisu 5 arkipäivässä."
+        },
+        {
+          "@type": "Offer",
+          "name": "Pro-sivut",
+          "price": "1000",
+          "priceCurrency": "EUR",
+          "description": "3–4 sivua, avainsanatutkimus, tekninen SEO, Google/Meta Ads -startti, 30 pv tuki."
+        }
+      ]
+    }
+    </script>
+
+    <!-- Structured Data: FAQ -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Kuinka nopeasti saan verkkosivut Kivamedialta?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "One-pager julkaistaan 5 arkipäivässä. Saat desktop- ja mobiililayoutin 24 tunnin sisällä tilauksesta."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Paljonko verkkosivut maksavat?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yksisivuinen verkkosivusto alkaen 500 € + ALV. Pro-sivut (3–4 sivua) alkaen 1 000 € + ALV. Verkkokauppa tarjouspyynnöllä."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mitä tyytyväisyystakuu tarkoittaa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Iteroidaan kunnes olet tyytyväinen lopputulokseen. Ei lisäveloitusta muutoskierroksista."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Voiko verkkosivujen maksaa erissä?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kyllä. Sovimme sinulle sopivan maksusuunnitelman, erityisesti uusille yrityksille."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mitä on AI-SEO?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AI-SEO varmistaa, että yrityksesi löytyy perinteisten hakukoneiden lisäksi myös tekoälypalveluista kuten ChatGPT, Google Gemini ja Perplexity."
+          }
+        }
+      ]
+    }
+    </script>
+
 </head>
 
 <body>
@@ -398,7 +513,7 @@
                                         <div class="col-sm-6">
 
                                             <div class="mil-team-card mil-up mil-mb-30">
-                                                <img src="img/faces/1.jpg" alt="Nabil Samari">
+                                                <img src="img/faces/1.jpg" alt="Nabil Samari - Kivamedia perustaja, verkkosivut ja SEO">
                                                 <div class="mil-description">
                                                     <div class="mil-secrc-text">
                                                         <h5 class="mil-muted mil-mb-5">Nabil Samari</h5>
@@ -412,7 +527,7 @@
                                         <div class="col-sm-6">
 
                                             <div class="mil-team-card mil-up mil-mb-30">
-                                                <img src="img/faces/3.jpg" alt="Annika Ränkimies">
+                                                <img src="img/faces/3.jpg" alt="Annika Ränkimies - Kivamedia, sosiaalinen media ja brändi">
                                                 <div class="mil-description">
                                                     <div class="mil-secrc-text">
                                                         <h5 class="mil-muted mil-mb-5">Annika Ränkimies</h5>
@@ -433,7 +548,72 @@
                 </section>
                 <!-- team end -->
 
-                <!-- 5. FINAL CTA / LEAD CAPTURE -->
+                <!-- 5. FAQ -->
+                <section id="ukk" class="mil-soft-bg">
+                    <div class="container mil-p-120-120">
+                        <h2 class="mil-up mil-mb-60">Usein kysytyt <span class="mil-thin">kysymykset</span></h2>
+
+                        <div class="mil-accordion">
+                            <div class="mil-accordion-item mil-up">
+                                <div class="mil-accordion-head">
+                                    <h5>Kuinka nopeasti saan verkkosivut?</h5>
+                                    <span class="mil-symbol mil-h3 mil-thin">+</span>
+                                </div>
+                                <div class="mil-accordion-content">
+                                    <p>One-pager julkaistaan 5 arkipäivässä. Saat desktop- ja mobiililayoutin 24 tunnin sisällä tilauksesta.</p>
+                                </div>
+                            </div>
+                            <div class="mil-accordion-item mil-up">
+                                <div class="mil-accordion-head">
+                                    <h5>Paljonko verkkosivut maksavat?</h5>
+                                    <span class="mil-symbol mil-h3 mil-thin">+</span>
+                                </div>
+                                <div class="mil-accordion-content">
+                                    <p>Yksisivuinen verkkosivusto alkaen 500 € + ALV. Pro-sivut (3–4 sivua) alkaen 1 000 € + ALV. Verkkokauppa tarjouspyynnöllä.</p>
+                                </div>
+                            </div>
+                            <div class="mil-accordion-item mil-up">
+                                <div class="mil-accordion-head">
+                                    <h5>Mitä tyytyväisyystakuu tarkoittaa?</h5>
+                                    <span class="mil-symbol mil-h3 mil-thin">+</span>
+                                </div>
+                                <div class="mil-accordion-content">
+                                    <p>Iteroidaan kunnes olet tyytyväinen lopputulokseen. Ei lisäveloitusta muutoskierroksista.</p>
+                                </div>
+                            </div>
+                            <div class="mil-accordion-item mil-up">
+                                <div class="mil-accordion-head">
+                                    <h5>Voiko maksaa erissä?</h5>
+                                    <span class="mil-symbol mil-h3 mil-thin">+</span>
+                                </div>
+                                <div class="mil-accordion-content">
+                                    <p>Kyllä. Sovimme sinulle sopivan maksusuunnitelman, erityisesti uusille yrityksille.</p>
+                                </div>
+                            </div>
+                            <div class="mil-accordion-item mil-up">
+                                <div class="mil-accordion-head">
+                                    <h5>Mitä on AI-SEO?</h5>
+                                    <span class="mil-symbol mil-h3 mil-thin">+</span>
+                                </div>
+                                <div class="mil-accordion-content">
+                                    <p>AI-SEO varmistaa, että yrityksesi löytyy perinteisten hakukoneiden lisäksi myös tekoälypalveluista kuten ChatGPT, Google Gemini ja Perplexity.</p>
+                                </div>
+                            </div>
+                            <div class="mil-accordion-item mil-up">
+                                <div class="mil-accordion-head">
+                                    <h5>Palveleeko Kivamedia vain Helsingissä?</h5>
+                                    <span class="mil-symbol mil-h3 mil-thin">+</span>
+                                </div>
+                                <div class="mil-accordion-content">
+                                    <p>Ei. Palvelemme koko Suomea etänä. Tapaamiset hoituvat Google Meetillä.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- faq end -->
+
+                <!-- 6. FINAL CTA / LEAD CAPTURE -->
                 <section id="yhteys" class="mil-dark-bg">
                     <div class="mi-invert-fix">
                         <div class="mil-animation-frame">
@@ -472,16 +652,16 @@
                                     <!-- Contact form -->
                                     <form class="mil-up" action="#" method="post">
                                         <div class="mil-mb-30">
-                                            <input type="text" name="name" placeholder="Nimesi" class="mil-input mil-dark-input" required>
+                                            <input type="text" name="name" placeholder="Nimesi" required>
                                         </div>
                                         <div class="mil-mb-30">
-                                            <input type="email" name="email" placeholder="Sähköpostiosoitteesi" class="mil-input mil-dark-input" required>
+                                            <input type="email" name="email" placeholder="Sähköpostiosoitteesi" required>
                                         </div>
                                         <div class="mil-mb-30">
-                                            <input type="tel" name="phone" placeholder="Puhelinnumerosi" class="mil-input mil-dark-input">
+                                            <input type="tel" name="phone" placeholder="Puhelinnumerosi">
                                         </div>
                                         <div class="mil-mb-30">
-                                            <textarea name="message" rows="4" placeholder="Kerro lyhyesti tarpeestasi (esim. 'Tarvitsen verkkosivut kahvilalleni')" class="mil-input mil-dark-input"></textarea>
+                                            <textarea name="message" placeholder="Kerro lyhyesti tarpeestasi (esim. 'Tarvitsen verkkosivut kahvilalleni')"></textarea>
                                         </div>
                                         <button type="submit" class="mil-button mil-arrow-place"><span>Lähetä viesti</span></button>
                                     </form>

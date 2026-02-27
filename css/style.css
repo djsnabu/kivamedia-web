@@ -734,6 +734,24 @@ textarea {
   height: 300px;
 }
 
+.mi-invert-fix input,
+.mi-invert-fix textarea {
+  color: #fff;
+  border-bottom-color: rgba(255, 255, 255, 0.2);
+  background: transparent;
+}
+.mi-invert-fix input::-webkit-input-placeholder,
+.mi-invert-fix textarea::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+.mi-invert-fix input::placeholder,
+.mi-invert-fix textarea::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+.mi-invert-fix textarea {
+  height: 150px;
+}
+
 /* -------------------------------------------
 
 breadcrumbs
