@@ -369,6 +369,15 @@ $(function () {
         $('.mil-menu').toggleClass('mil-active');
         $('.mil-menu-frame').toggleClass('mil-active');
     });
+
+    // Close menu when clicking anchor links or direct page links
+    $('.mil-main-menu a').on('click', function () {
+        if (!$(this).parent().hasClass('mil-has-children') || this.getAttribute('href').charAt(0) === '#') {
+            $('.mil-menu-btn').removeClass('mil-active');
+            $('.mil-menu').removeClass('mil-active');
+            $('.mil-menu-frame').removeClass('mil-active');
+        }
+    });
     /***************************
 
     main menu
@@ -832,6 +841,15 @@ $(function () {
             $('.mil-has-children a').removeClass('mil-active');
             $(this).toggleClass('mil-active');
             $(this).next().toggleClass('mil-active');
+        });
+
+        // Close menu when clicking anchor links or direct page links (reinit)
+        $('.mil-main-menu a').on('click', function () {
+            if (!$(this).parent().hasClass('mil-has-children') || this.getAttribute('href').charAt(0) === '#') {
+                $('.mil-menu-btn').removeClass('mil-active');
+                $('.mil-menu').removeClass('mil-active');
+                $('.mil-menu-frame').removeClass('mil-active');
+            }
         });
         /***************************
 
