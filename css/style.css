@@ -1206,19 +1206,37 @@ frame
 
 ------------------------------------------- */
 .mil-logo {
-  font-size: 26px;
-  font-weight: 300;
-  line-height: 100%;
-  letter-spacing: 0.5px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   text-decoration: none;
+  line-height: 1;
+  gap: 1px;
 }
-.mil-logo-bold {
+.mil-logo-top {
   font-weight: 800;
-  letter-spacing: 2px;
+  font-size: 22px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.mil-logo-bottom {
+  font-weight: 300;
+  font-size: 13px;
+  letter-spacing: 2.5px;
 }
 @media screen and (max-width: 992px) {
-  .mil-logo {
-    font-size: 22px;
+  .mil-logo-top {
+    font-size: 18px;
+  }
+  .mil-logo-bottom {
+    font-size: 11px;
   }
 }
 
@@ -1317,6 +1335,11 @@ frame
 .mil-frame-top .mil-logo {
   pointer-events: all;
   color: rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.85);
+  -webkit-backdrop-filter: blur(6px);
+          backdrop-filter: blur(6px);
+  padding: 8px 12px;
+  border-radius: 6px;
 }
 
 /* -------------------------------------------
