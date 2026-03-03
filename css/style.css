@@ -1334,12 +1334,7 @@ frame
 }
 .mil-frame-top .mil-logo {
   pointer-events: all;
-  color: rgb(0, 0, 0);
-  background-color: rgba(255, 255, 255, 0.85);
-  -webkit-backdrop-filter: blur(6px);
-          backdrop-filter: blur(6px);
-  padding: 8px 12px;
-  border-radius: 6px;
+  color: rgb(255, 255, 255);
 }
 
 /* -------------------------------------------
