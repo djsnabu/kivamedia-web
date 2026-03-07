@@ -34,10 +34,30 @@
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
 
     <!-- css -->
+    <!-- preconnect -->
+    <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+    <link rel="preconnect" href="https://connect.facebook.net" crossorigin>
+
     <link rel="stylesheet" href="css/plugins/bootstrap-grid.css">
+    <!-- preconnect -->
+    <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+    <link rel="preconnect" href="https://connect.facebook.net" crossorigin>
+
     <link rel="stylesheet" href="css/plugins/font-awesome.min.css">
+    <!-- preconnect -->
+    <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+    <link rel="preconnect" href="https://connect.facebook.net" crossorigin>
+
     <link rel="stylesheet" href="css/plugins/swiper.min.css">
+    <!-- preconnect -->
+    <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+    <link rel="preconnect" href="https://connect.facebook.net" crossorigin>
+
     <link rel="stylesheet" href="css/plugins/fancybox.min.css">
+    <!-- preconnect -->
+    <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+    <link rel="preconnect" href="https://connect.facebook.net" crossorigin>
+
     <link rel="stylesheet" href="css/style.css">
 
     <title>Galleria – Valo- ja videokuvaus | Kivamedia</title>
@@ -51,6 +71,7 @@
     <meta property="og:image" content="https://kivamedia.fi/img/photo/1.jpg">
 
     <!-- Twitter -->
+    <meta property="twitter:image" content="https://kivamedia.fi/img/photo/1.jpg">
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:title" content="Galleria – Valo- ja videokuvaus | Kivamedia">
     <meta property="twitter:description" content="Kivamedian valokuva- ja videogalleria. Selaa albumeja ja tutustu tuotantoihimme.">
@@ -84,6 +105,18 @@
       fbq('track', 'PageView');
     </script>
     <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1952496672331694&ev=PageView&noscript=1" /></noscript>
+
+    <!-- Structured Data: BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Etusivu", "item": "https://kivamedia.fi/"},
+        {"@type": "ListItem", "position": 2, "name": "Galleria", "item": "https://kivamedia.fi/galleria.html"}
+      ]
+    }
+    </script>
 </head>
 
 <body>
