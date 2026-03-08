@@ -32,6 +32,8 @@ $(function () {
 
     ***************************/
     gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
+    ScrollTrigger.normalizeScroll(true);
+    ScrollTrigger.config({ ignoreMobileResize: true });
     /***************************
 
     color variables
