@@ -2625,3 +2625,37 @@ html.is-animating {
         transition-delay: .3s;
     }
 }
+
+/* -------------------------------------------
+
+pricing cards
+
+------------------------------------------- */
+
+.mil-pricing-card {
+    background: #090909;
+    padding: 40px;
+    border-radius: 24px;
+    margin-bottom: 30px;
+
+    & h4 {
+        color: $light;
+        margin-bottom: 10px;
+    }
+
+    & ul {
+        list-style: none;
+        padding: 0;
+        margin: 20px 0 30px;
+        color: $gs-30;
+    }
+
+    & ul li {
+        margin-bottom: 8px;
+    }
+
+    &.mil-popular {
+        border: 1px solid $lt-20;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+    }
+}
