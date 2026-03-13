@@ -191,7 +191,7 @@ h1,
 @media screen and (max-width: 768px) {
   h1,
   .mil-h1 {
-    font-size: 16px;
+    font-size: 32px;
   }
 }
 
