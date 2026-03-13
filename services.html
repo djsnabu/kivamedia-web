@@ -470,6 +470,77 @@
                 </section>
                 <!-- pricing end -->
 
+                <!-- audit section -->
+                <section id="audit" class="mil-dark-bg">
+                    <div class="container mil-p-120-120">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8 text-center">
+                                <span class="mil-suptitle mil-up mil-mb-30" style="color:#fff;opacity:.7">Ilmainen palvelu</span>
+                                <h2 class="mil-up mil-mb-30" style="color:#fff">🔍 Ilmainen sivustoauditointi</h2>
+                                <p class="mil-up mil-mb-60" style="color:#fff;opacity:.8">Syötä verkkosivusi osoite ja sähköpostisi — AI analysoi sivustosi ja lähettää 5 konkreettista parannusehdotusta suoraan sähköpostiisi. Ilmaiseksi.</p>
+                                <div class="mil-up">
+                                    <form id="auditForm" style="max-width:520px;margin:0 auto">
+                                        <div style="margin-bottom:16px">
+                                            <input type="text" id="auditName" placeholder="Nimesi" required
+                                                style="width:100%;padding:14px 18px;border:none;border-radius:8px;font-size:15px;background:#fff;color:#111;box-sizing:border-box">
+                                        </div>
+                                        <div style="margin-bottom:16px">
+                                            <input type="email" id="auditEmail" placeholder="Sähköpostiosoitteesi" required
+                                                style="width:100%;padding:14px 18px;border:none;border-radius:8px;font-size:15px;background:#fff;color:#111;box-sizing:border-box">
+                                        </div>
+                                        <div style="margin-bottom:24px">
+                                            <input type="url" id="auditUrl" placeholder="https://sivustosi.fi" required
+                                                style="width:100%;padding:14px 18px;border:none;border-radius:8px;font-size:15px;background:#fff;color:#111;box-sizing:border-box">
+                                        </div>
+                                        <button type="submit" id="auditBtn" class="mil-button mil-arrow-place" style="width:100%;justify-content:center;border:none;cursor:pointer">
+                                            <span id="auditBtnText">Analysoi sivustoni ilmaiseksi</span>
+                                        </button>
+                                        <div id="auditMsg" style="display:none;margin-top:20px;padding:16px;border-radius:8px;font-size:15px"></div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- audit end -->
+
+                <script>
+                document.getElementById('auditForm').addEventListener('submit', async function(e) {
+                    e.preventDefault();
+                    const btn = document.getElementById('auditBtn');
+                    const btnText = document.getElementById('auditBtnText');
+                    const msg = document.getElementById('auditMsg');
+                    const name = document.getElementById('auditName').value.trim();
+                    const email = document.getElementById('auditEmail').value.trim();
+                    const url = document.getElementById('auditUrl').value.trim();
+
+                    btnText.textContent = 'Analysoidaan...';
+                    btn.disabled = true;
+                    msg.style.display = 'none';
+
+                    try {
+                        const res = await fetch('https://n8n.niceevents.fi/webhook/landing-audit', {
+                            method: 'POST',
+                            headers: { 'Content-Type': 'application/json' },
+                            body: JSON.stringify({ name, email, url })
+                        });
+                        const data = await res.json();
+                        if (data.success) {
+                            msg.style.cssText = 'display:block;margin-top:20px;padding:16px;border-radius:8px;background:#27ae60;color:#fff;font-size:15px';
+                            msg.textContent = '✅ Analyysi lähetetty! Tarkista sähköpostisi (myös roskaposti).';
+                            document.getElementById('auditForm').reset();
+                        } else {
+                            throw new Error('Virhe');
+                        }
+                    } catch (err) {
+                        msg.style.cssText = 'display:block;margin-top:20px;padding:16px;border-radius:8px;background:#e74c3c;color:#fff;font-size:15px';
+                        msg.textContent = '❌ Jokin meni pieleen. Yritä uudelleen tai ota yhteyttä suoraan.';
+                    }
+                    btnText.textContent = 'Analysoi sivustoni ilmaiseksi';
+                    btn.disabled = false;
+                });
+                </script>
+
                 <!-- footer -->
                 <footer class="mil-dark-bg">
                     <div class="mi-invert-fix">
