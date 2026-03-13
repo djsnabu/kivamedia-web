@@ -506,6 +506,11 @@
                 </section>
                 <!-- audit end -->
 
+                <style>
+                #audit input { background:#ffffff !important; color:#111111 !important; border:2px solid rgba(255,255,255,0.3) !important; }
+                #audit input::placeholder { color:#888 !important; }
+                #audit input:focus { outline:none !important; border-color:#3498db !important; }
+                </style>
                 <script>
                 document.getElementById('auditForm').addEventListener('submit', async function(e) {
                     e.preventDefault();
