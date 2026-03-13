@@ -481,15 +481,17 @@
                                 <div class="mil-up">
                                     <form id="auditForm" style="max-width:520px;margin:0 auto">
                                         <div style="margin-bottom:16px">
-                                            <input type="text" id="auditName" placeholder="Nimesi" required
+                                            <input type="url" id="auditUrl" placeholder="https://sivustosi.fi" required
                                                 style="width:100%;padding:14px 18px;border:none;border-radius:8px;font-size:15px;background:#fff;color:#111;box-sizing:border-box">
                                         </div>
-                                        <div style="margin-bottom:16px">
-                                            <input type="email" id="auditEmail" placeholder="Sähköpostiosoitteesi" required
-                                                style="width:100%;padding:14px 18px;border:none;border-radius:8px;font-size:15px;background:#fff;color:#111;box-sizing:border-box">
+                                        <div style="display:flex;gap:12px;margin-bottom:16px">
+                                            <input type="text" id="auditFirstName" placeholder="Etunimi" required
+                                                style="flex:1;padding:14px 18px;border:none;border-radius:8px;font-size:15px;background:#fff;color:#111;box-sizing:border-box">
+                                            <input type="text" id="auditLastName" placeholder="Sukunimi" required
+                                                style="flex:1;padding:14px 18px;border:none;border-radius:8px;font-size:15px;background:#fff;color:#111;box-sizing:border-box">
                                         </div>
                                         <div style="margin-bottom:24px">
-                                            <input type="url" id="auditUrl" placeholder="https://sivustosi.fi" required
+                                            <input type="email" id="auditEmail" placeholder="Sähköpostiosoitteesi" required
                                                 style="width:100%;padding:14px 18px;border:none;border-radius:8px;font-size:15px;background:#fff;color:#111;box-sizing:border-box">
                                         </div>
                                         <button type="submit" id="auditBtn" class="mil-button mil-arrow-place" style="width:100%;justify-content:center;border:none;cursor:pointer">
@@ -510,7 +512,9 @@
                     const btn = document.getElementById('auditBtn');
                     const btnText = document.getElementById('auditBtnText');
                     const msg = document.getElementById('auditMsg');
-                    const name = document.getElementById('auditName').value.trim();
+                    const firstName = document.getElementById('auditFirstName').value.trim();
+                    const lastName = document.getElementById('auditLastName').value.trim();
+                    const name = firstName + ' ' + lastName;
                     const email = document.getElementById('auditEmail').value.trim();
                     const url = document.getElementById('auditUrl').value.trim();
 
