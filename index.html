@@ -508,6 +508,68 @@
                 </section>
                 <!-- packages end -->
 
+                <!-- audit section -->
+                <section id="audit" class="mil-dark-bg">
+                    <div class="container mil-p-90-90">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-7 text-center">
+                                <span class="mil-suptitle mil-up mil-mb-20" style="color:#fff;opacity:.7">Ilmainen — ei sitoumuksia</span>
+                                <h2 class="mil-up mil-mb-20" style="color:#fff">🔍 AI-analyysi sivustollesi</h2>
+                                <p class="mil-up mil-mb-40" style="color:#fff;opacity:.75;font-size:16px">Syötä sivustosi osoite ja sähköpostisi. Saat 5 konkreettista parannusehdotusta minuuteissa — täysin ilmaiseksi.</p>
+                                <form id="auditFormHome" style="max-width:480px;margin:0 auto">
+                                    <div style="display:flex;gap:10px;margin-bottom:12px;flex-wrap:wrap">
+                                        <input type="text" id="ahUrl" placeholder="sivustosi.fi" required
+                                            style="flex:1;min-width:180px;padding:13px 16px;border:none;border-radius:8px;font-size:15px;background:#fff;color:#111;box-sizing:border-box">
+                                        <input type="email" id="ahEmail" placeholder="Sähköpostisi" required
+                                            style="flex:1;min-width:180px;padding:13px 16px;border:none;border-radius:8px;font-size:15px;background:#fff;color:#111;box-sizing:border-box">
+                                    </div>
+                                    <button type="submit" id="ahBtn" class="mil-button mil-arrow-place" style="width:100%;justify-content:center;border:none;cursor:pointer">
+                                        <span id="ahBtnText">Analysoi ilmaiseksi</span>
+                                    </button>
+                                    <div id="ahMsg" style="display:none;margin-top:16px;padding:14px;border-radius:8px;font-size:14px"></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <script>
+                document.getElementById('auditFormHome').addEventListener('submit', async function(e) {
+                    e.preventDefault();
+                    const btn = document.getElementById('ahBtn');
+                    const btnText = document.getElementById('ahBtnText');
+                    const msg = document.getElementById('ahMsg');
+                    const email = document.getElementById('ahEmail').value.trim();
+                    let url = document.getElementById('ahUrl').value.trim();
+
+                    // Auto-fix URL: add https:// if missing
+                    if (!/^https?:\/\//i.test(url)) url = 'https://' + url;
+
+                    btnText.textContent = 'Analysoidaan...';
+                    btn.disabled = true;
+                    msg.style.display = 'none';
+
+                    try {
+                        const res = await fetch('https://n8n.niceevents.fi/webhook/landing-audit', {
+                            method: 'POST',
+                            headers: { 'Content-Type': 'application/json' },
+                            body: JSON.stringify({ name: email.split('@')[0], email, url })
+                        });
+                        const data = await res.json();
+                        if (data.success) {
+                            msg.style.cssText = 'display:block;margin-top:16px;padding:14px;border-radius:8px;background:#27ae60;color:#fff;font-size:14px';
+                            msg.textContent = '✅ Analyysi lähetetty! Tarkista sähköpostisi.';
+                            document.getElementById('auditFormHome').reset();
+                        } else { throw new Error(); }
+                    } catch (err) {
+                        msg.style.cssText = 'display:block;margin-top:16px;padding:14px;border-radius:8px;background:#e74c3c;color:#fff;font-size:14px';
+                        msg.textContent = '❌ Jokin meni pieleen. Yritä uudelleen.';
+                    }
+                    btnText.textContent = 'Analysoi ilmaiseksi';
+                    btn.disabled = false;
+                });
+                </script>
+                <!-- audit end -->
+
                 <!-- 2.5 KAIKKI PALVELUMME -->
                 <section id="palvelut">
                     <div class="container mil-p-120-60">
