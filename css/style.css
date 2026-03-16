@@ -3414,3 +3414,8 @@ pricing cards
   border: 1px solid rgba(255, 255, 255, 0.2);
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
 }
+
+/* Fix: hide duplicate arrows */
+.mil-arrow-place .mil-arrow + .mil-arrow {
+  display: none;
+}
