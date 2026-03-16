@@ -2036,14 +2036,16 @@ services
   padding: 60px 30px;
 }
 .mil-service-card-sm p {
-  opacity: 0;
-  transform: translateY(10px);
+  opacity: 1;
+  transform: translateY(0);
   overflow: hidden;
   display: -webkit-box;
-  -webkit-line-clamp: 3;
-  line-clamp: 3;
+  -webkit-line-clamp: 5;
+  line-clamp: 5;
   -webkit-box-orient: vertical;
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+  font-size: 1.05rem;
+  line-height: 1.6;
 }
 .mil-service-card-sm .mil-button {
   transform: scale(0.3);
