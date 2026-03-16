@@ -321,7 +321,8 @@ blockquote {
 }
 
 .mil-text-sm {
-  font-size: 16px;
+  font-size: 17px;
+  line-height: 1.5;
 }
 
 .mil-text-lg {
@@ -383,8 +384,9 @@ a {
 }
 
 .mil-light-soft {
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.15rem;
+  line-height: 1.7;
 }
 
 .mil-dark-soft {
@@ -3401,12 +3403,12 @@ pricing cards
   list-style: none;
   padding: 0;
   margin: 20px 0 30px;
-  color: rgb(200, 200, 200);
-  font-size: 1.05rem;
+  color: rgb(210, 210, 210);
+  font-size: 1.15rem;
 }
 .mil-pricing-card ul li {
-  margin-bottom: 10px;
-  line-height: 1.5;
+  margin-bottom: 12px;
+  line-height: 1.6;
 }
 .mil-pricing-card.mil-popular {
   border: 1px solid rgba(255, 255, 255, 0.2);
