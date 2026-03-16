@@ -321,7 +321,7 @@ blockquote {
 }
 
 .mil-text-sm {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .mil-text-lg {
@@ -383,11 +383,13 @@ a {
 }
 
 .mil-light-soft {
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1.1rem;
 }
 
 .mil-dark-soft {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 1.1rem;
 }
 
 .mil-marker {
@@ -417,6 +419,7 @@ a {
   position: relative;
   display: block;
   margin-bottom: 60px;
+  font-size: 1.15rem;
 }
 .mil-suptitle:before {
   content: "";
