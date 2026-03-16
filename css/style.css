@@ -3401,10 +3401,12 @@ pricing cards
   list-style: none;
   padding: 0;
   margin: 20px 0 30px;
-  color: rgb(178, 178, 178);
+  color: rgb(200, 200, 200);
+  font-size: 1.05rem;
 }
 .mil-pricing-card ul li {
-  margin-bottom: 8px;
+  margin-bottom: 10px;
+  line-height: 1.5;
 }
 .mil-pricing-card.mil-popular {
   border: 1px solid rgba(255, 255, 255, 0.2);
