@@ -1,6 +1,6 @@
 # Kivamedia
 
-> Kivamedia on suomalainen digitaalitoimisto, joka rakentaa pk-yrityksille verkkosivut, hakukonenäkyvyyden ja sosiaalisen median sisällöt.
+> Kivamedia on suomalainen digitoimisto, joka tuo pk-yrityksille asiakkaita AI-SEO:n, sisällöntuotannon, ammattivalokuvauksen, somen ja brändin avulla. Verkkosivut ilmaiseksi kuukausiasiakkaille.
 
 ## Yhteystiedot
 
@@ -11,44 +11,41 @@
 
 ## Palvelut ja hinnat
 
-### Verkkosivut
+### Ydinpalvelut
 
-- **One-pager (500 € + ALV)**: Responsiivinen yksisivuinen verkkosivusto, julkaisu 5 arkipäivässä. Sisältää perus-SEO:n, AI-SEO-struktuurin, yhteydenottolomakkeen ja Google Analyticsin. Tyytyväisyystakuu.
-- **Pro-sivut (1 000 € + ALV)**: 3–4 sivua, avainsanatutkimus, tekninen SEO, blogi-/referenssisivut, Google Analytics & Tag Manager, Google/Meta Ads -startti. 30 päivän julkaisun jälkeinen tuki.
-- **Verkkokauppa (tarjouspyyntö)**: WooCommerce tai Shopify, maksutavat ja varastonhallinta, SEO & CRO-auditointi, integraatiot, kuukausittainen raportointi.
+- AI-SEO ja hakukoneoptimointi (Google + tekoälyhaut kuten ChatGPT, Gemini, Perplexity)
+- Sisällöntuotanto (blogiartikkelit, tekstit, Q&A-sisällöt)
+- Ammattivalokuvaus (yrityskuvat, tuotekuvat, henkilökuvat)
+- Graafinen suunnittelu ja brändäys (logo, värimaailma, visuaalinen ilme)
+- Some-hallinta (Instagram, Facebook, TikTok — sisältökalenteri, julkaisut, yhteisöhallinta)
+- Mainonta (Google Ads, Meta, TikTok — kampanjat, kohdennukset, raportointi)
+- AI-automaatiot ja CRM-integraatiot
 
-### Muut palvelut
+### Paketit
 
-- Hakukoneoptimointi (SEO) ja AI-SEO (näkyvyys ChatGPT:ssä, Geminissä, Perplexityssä)
-- Google Ads, Meta (Facebook/Instagram) ja TikTok -mainonta
-- Sosiaalisen median sisällöntuotanto ja strategia
-- Brändisuunnittelu ja visuaalinen ilme
-- Valokuvaus ja lyhytvideot
+- **One Pager (290 € + ALV)**: Yksisivuinen verkkosivusto 48 tunnissa. AI-SEO, yhteydenottolomake, valmis copy ja kuvamaailma. Kertaostos, tyytyväisyystakuu.
+- **Näkyvyys (490 €/kk + ALV, 12 kk)**: Verkkosivut ilmaiseksi. AI-SEO ja Google-optimointi, 4 blogiartikkelia kuukaudessa, hakukonenäkyvyys-raportti, Google Analytics ja Tag Manager.
+- **Näkyvyys + Brändi (890 €/kk + ALV, 12 kk)**: Verkkosivut ilmaiseksi. Kaikki Näkyvyys-paketista plus ammattivalokuvaus, graafinen ilme ja brändäys, some-sisältö 8 julkaisua kuukaudessa.
+- **Täysi Digi (1 490 €/kk + ALV, 12 kk)**: Verkkosivut ilmaiseksi. Kaikki edellisistä plus Google ja Meta Ads -mainonta, AI-automaatiot ja CRM-integraatiot, kuukausiraportointi.
 
-## Lupaukset
+## Miksi Kivamedia?
 
-- **24h layout**: Desktop- ja mobiilimockup 24 tunnin sisällä arkena.
-- **Tyytyväisyystakuu**: Iteroidaan kunnes asiakas on tyytyväinen, ei lisäveloitusta.
-- **Joustavat maksuajat**: Uudet yritykset voivat maksaa erissä.
+- Verkkosivujen rakentaminen ei ole enää palvelu — se on tekoälylle minuutin työ. Siksi emme laskuta siitä.
+- Keskitämme budjettisi siihen, mikä oikeasti tuo asiakkaita: sisältö, näkyvyys ja brändi.
+- Yrittäjä Nabil Samari tuo yli 17 vuoden kokemuksen media- ja tapahtuma-alalta.
 
 ## Tiimi
 
-- **Nabil Samari** — Perustaja. Verkkosivut, SEO ja tekninen toteutus. nabil@kivamedia.fi
+- **Nabil Samari** — Perustaja. SEO, sisällöntuotanto, valokuvaus, tekninen toteutus. nabil@kivamedia.fi
 - **Annika Ränkimies** — Sosiaalinen media, brändi ja lyhytvideot. annika@kivamedia.fi
 
 ## Usein kysytyt kysymykset
 
-### Kuinka nopeasti saan verkkosivut?
-One-pager julkaistaan 5 arkipäivässä. Saat desktop- ja mobiililayoutin 24 tunnin sisällä tilauksesta.
+### Paljonko palvelut maksavat?
+One Pager kertaostoksena 290 € + ALV. Kuukausipaketit: Näkyvyys 490 €/kk, Näkyvyys + Brändi 890 €/kk, Täysi Digi 1 490 €/kk (12 kk sopimus). Kuukausipaketteihin verkkosivut ilmaiseksi.
 
-### Paljonko verkkosivut maksavat?
-Yksisivuinen verkkosivusto alkaen 500 € + ALV. Pro-sivut (3–4 sivua) alkaen 1 000 € + ALV. Verkkokauppa tarjouspyynnöllä.
-
-### Mitä tyytyväisyystakuu tarkoittaa?
-Iteroidaan kunnes olet tyytyväinen lopputulokseen. Ei lisäveloitusta muutoskierroksista.
-
-### Voiko maksaa erissä?
-Kyllä. Sovimme sinulle sopivan maksusuunnitelman, erityisesti uusille yrityksille.
+### Miksi verkkosivut ilmaiseksi?
+Perusverkkosivujen rakentaminen ei ole enää arvokas palvelu — tekoäly tekee sen minuuteissa. Haluamme keskittää budjettisi siihen, mikä oikeasti tuo asiakkaita: SEO-sisältö, valokuvaus ja brändi.
 
 ### Mitä on AI-SEO?
 AI-SEO varmistaa, että yrityksesi löytyy perinteisten hakukoneiden lisäksi myös tekoälypalveluista kuten ChatGPT, Google Gemini ja Perplexity.
