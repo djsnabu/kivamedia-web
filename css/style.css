@@ -3419,3 +3419,104 @@ pricing cards
 .mil-arrow-place .mil-arrow + .mil-arrow {
   display: none;
 }
+
+/* -------------------------------------------
+
+large screen scaling (1920px / 2K / 4K)
+
+------------------------------------------- */
+
+/* 1920px+ (Full HD wide) */
+@media screen and (min-width: 1920px) {
+  html, body {
+    font-size: 16px;
+  }
+
+  h1, .mil-h1 {
+    font-size: 80px;
+  }
+
+  h2, .mil-h2 {
+    font-size: 62px;
+  }
+
+  h3, .mil-h3 {
+    font-size: 40px;
+  }
+
+  .mil-frame {
+    padding: 60px 80px 80px 80px;
+  }
+
+  .mil-frame .mil-frame-top {
+    padding: 0 80px;
+  }
+
+  .mil-logo {
+    font-size: 50px;
+  }
+}
+
+/* 2K (2560px+) */
+@media screen and (min-width: 2560px) {
+  html, body {
+    font-size: 18px;
+  }
+
+  h1, .mil-h1 {
+    font-size: 96px;
+  }
+
+  h2, .mil-h2 {
+    font-size: 74px;
+  }
+
+  h3, .mil-h3 {
+    font-size: 48px;
+  }
+
+  .mil-frame {
+    padding: 70px 100px 100px 100px;
+  }
+
+  .mil-frame .mil-frame-top {
+    padding: 0 100px;
+    height: 100px;
+  }
+
+  .mil-logo {
+    font-size: 58px;
+  }
+}
+
+/* 4K (3840px+) */
+@media screen and (min-width: 3840px) {
+  html, body {
+    font-size: 22px;
+  }
+
+  h1, .mil-h1 {
+    font-size: 120px;
+  }
+
+  h2, .mil-h2 {
+    font-size: 92px;
+  }
+
+  h3, .mil-h3 {
+    font-size: 60px;
+  }
+
+  .mil-frame {
+    padding: 90px 130px 130px 130px;
+  }
+
+  .mil-frame .mil-frame-top {
+    padding: 0 130px;
+    height: 120px;
+  }
+
+  .mil-logo {
+    font-size: 72px;
+  }
+}
